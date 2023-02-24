@@ -1,0 +1,20 @@
+.container{
+    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: #101828;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Inter";
+}
+
+.content{
+    overflow: scroll;
+    margin: 0.2rem auto;
+    height: 98%;
+    width: 100%;
+    color: black;
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 20px 0 0 20px;
+}

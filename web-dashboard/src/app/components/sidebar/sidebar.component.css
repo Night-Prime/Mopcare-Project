@@ -1,0 +1,128 @@
+.sidebar {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  margin-right: 0.5rem;
+}
+
+.search {
+  margin-bottom: 1rem;
+}
+
+.search input {
+  width: 220px;
+  height: 45px;
+  background-color: #344054;
+  border: 1px solid #344054;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  background-image: url(../../../assets/search.png);
+  background-position: 10px 10px;
+  background-size: 20px;
+  color: rgba(255, 255, 255, 0.645);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.search input:focus {
+  background-image: none;
+}
+
+.search input::placeholder {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.645);
+  padding-left: 2rem;
+}
+
+.dashboard {
+  margin-bottom: 1rem;
+}
+
+.dashboard button {
+  width: 240px;
+  background-color: #344054;
+  border: 1px solid #344054;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.645);
+  cursor: pointer;
+}
+
+.dashboard button .dashbtn, .settingsBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-size: 16px;
+}
+
+.dashbtn a, .settingsBtn a{
+ text-decoration: none; 
+ color: white
+}
+
+.dashbtn img, .settingsBtn img{
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    margin-right: 0.5rem;
+}
+
+.lower-section{
+    position: absolute;
+    bottom: 10%;
+}
+
+.settings{
+    margin-bottom: 2rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.645) ;
+}
+
+.settings button{
+    width: 240px;
+    /* height: 45px; */
+    background-color: transparent;
+    border: 1px solid transparent;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.645);
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.account{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.ProfileName p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.logOut{
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+<div class="settings-section">
+    <div class="settings-header">
+        <h1>Settings</h1>
+        <p>Make sure you fill in the right details.</p>
+    </div>
+
+    <span class="settings-body">
+        <div class="settings-info">
+            <h3>Personal Info</h3>
+            <p>Update your photo and personal details here.</p>
+            <span class="line"></span>
+        </div>
+        <div class="settings-form">
+            <form>
+                <span class="formContainer">
+                    <span class="inputs-top">
+                        <div class="inputs-left">
+                            <label for="first-name">First Name </label>
+                            <input id="first-name" type="text" formControlName="firstName" placeholder="Olivia">
+                        </div>
+
+                        <div class="inputs-right">
+                            <label for="last-name">Last Name </label>
+                            <input id="last-name" type="text" formControlName="lastName" placeholder="Rhye">
+                        </div>
+                    </span>
+                    <label for="email">Email </label>
+                    <input id="email" type="email" formControlName="email" placeholder="olivia@untitledui.com">
+
+                    <span class="inputs-bottom">
+                        <img src="../../../assets/Avatar.png" alt="avatar">
+
+                        <span class="uploadImg">
+                            <!-- subtituted the input tag for the image tag -->
+                            <label for="image">
+                                <input id="image" type="file" accept="image/*">
+                                <label for="image">
+                                    <img src="../../../assets/_File upload base.png" alt="fileUpload">
+                                </label>
+                            </label>
+                        </span>
+                    </span>
+
+                    <span class="input-button">
+                        <button id="cancel">Cancel</button>
+                        <button id="submit" type="submit">Submit</button>
+                    </span>
+                </span>
+            </form>
+        </div>
+    </span>
+</div>
